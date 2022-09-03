@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 /**
- *binary_tree_size - post-order traversal through a binary tree counts nodes.
- *@tree: Pointer to tree.
- *Return: size of tree
+ *binary_tree_size -  measures the depth of a node in a binary tree
+ *@tree: pointer to node to measure the depth
+ *Return: size of tree, 0 if NULL
  */
 size_t binary_tree_size(const binary_tree_t *tree)
 {
