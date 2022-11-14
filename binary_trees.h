@@ -54,4 +54,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree);
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 int _pow(int x, int y);
+int binary_tree_is_full(const binary_tree_t *tree);
+int rec_is_full(int is_full, const binary_tree_t *tree);
 #endif
